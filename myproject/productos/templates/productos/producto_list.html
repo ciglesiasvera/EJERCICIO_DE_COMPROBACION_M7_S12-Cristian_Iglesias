@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productos</title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 5px; 
+            margin: 0 auto; 
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center; 
+        }
+        h1 {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Información de Productos</h1>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+            <th>Vencimiento</th>
+        </tr>
+        {% for producto in productos %}
+        <tr>
+            <td>{{ producto.nombre }}</td>
+            <td>{{ producto.precio }}</td>
+            <td>{{ producto.descripcion }}</td>
+            <td>{{ producto.f_vencimiento }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

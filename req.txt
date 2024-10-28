@@ -1,0 +1,19 @@
+CUE: MODELOS DE PRUEBA
+
+REBOUND EXERCISE: PRUEBAS ESTÁTICAS A LA APLICACIÓN EN DJANGO
+
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los 
+videos del CUE: Modelos de Prueba
+
+EJERCICIO:
+
+Partiendo del modelo creado en los ejercicios del Rebound y Drilling en el CUE 
+anterior, realizar el diseño de pruebas de contenido estático a la aplicación 
+de productos, que contengan:
+
+1. Verificación del funcionamiento de la URL: registrar/, que devuelva 
+un código de estatus 200.
+2. Prueba de validación de URL disponible por nombre del enlace reverso de: registrar_producto.
+3. Verificar si el nombre es correcto con relación a la plantilla de insertar (registrar_producto.html) y 
+su nombre reverso.
+4. Verificar si un contenido corresponde a la plantilla (producto_list.html), por ejemplo: "<td>Nombre</td>”.
